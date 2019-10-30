@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Hjem</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="index.css">
+
+
+</head>
+<body>
+  <br><br><br><br>
+
+<span id="bildeRamme">
+<img id="karakter" src="../../karakterbilder/kjip.png" alt="Karakter" align="left">
+</span>
+<span class="bubble thought" id="snakkeBoble">
+  Pokker!
+</span>
+
+<div id="center">
+    <h3>Du klarte ikke å gjennomføre dagen og mistet dermed plassen din på studiet. Men du kan alltids prøve igjen neste år!</h3>
+</div>
+
+
+
+<span class="buttonSpan">
+   <a onclick="storyVidere()" id="myButton1">Prøv igjen neste år!</a>
+</span>
+<span class="buttonSpan">
+   <a onclick="storyTaper()" id="myButton2">Gi opp Digital Forretningsutvikling</a>
+</span>
+
+<script type="text/javascript">
+function storyVidere() {
+location.replace("../story1/index.html");
+}
+function storyTaper() {
+location.replace("../../forside/index.html");
+}
+</script>
+</body>
+</html>

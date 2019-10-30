@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Hjem</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+  <br><br><br><br>
+
+<span id="bildeRamme">
+<img id="karakter" src="../../karakterbilder/trøtt.png" alt="Karakter" align="left">
+</span>
+<span class="bubble thought" id="snakkeBoble">
+  Jeg er trøtt ..!
+</span>
+
+
+<div id="center">
+        <h3>Du våkner morgenen av første skoledag på studiet, men du har klart å forsove deg.<br>
+        Du står nå overfor to valgmuligheter:</h3>
+      </div>
+    <span class="buttonSpan">
+       <a onclick="storyVidere()" id="myButton1">Dra på skolen</a>
+  </span>
+    <span class="buttonSpan">
+       <a onclick="storyTaper()" id="myButton2">Bli hjemme i dag</a>
+    </span>
+
+<script type="text/javascript">
+function storyVidere() {
+  location.replace("../../spill/spillTilSkolen/index.html");
+}
+  function storyTaper() {
+   location.replace("../../story/storyTaper/index.html");
+  }
+</script>
+</body>
+</html>

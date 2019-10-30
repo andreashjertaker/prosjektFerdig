@@ -1,0 +1,70 @@
+canvas {
+  border: 1px solid #d3d3d3;
+  background-color: #f1f1f1;
+  position: absolute;
+  margin-top: 5em;
+  margin-left: 30.5em;
+  display: flex;
+}
+
+body {
+  background-image: url("img/bakgrunn.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 120%;
+}
+
+#btnMeny {
+  display: block;
+  height: 600px;
+  width: 450px;
+  margin-left: 30.5em;
+  background-repeat: no-repeat;
+}
+#karakter{
+  height: 250px;
+  width: 250px;
+  border: 3px solid #333;
+  background-color: #fff;
+  margin-left: 30px;
+  border-radius: 5px;
+  }
+
+/* Snakkeboble og tanker*/
+
+span.bubble {
+  width: 180px;
+  text-align: center;
+  line-height: 1.4em;
+  background-color: #fff;
+  border: 8px solid #333;
+  border-radius: 30px;
+  font-family: sans-serif;
+  padding: 10px;
+  position: absolute;
+  left: 150px;
+  top: 39px;
+}
+
+
+span.bubble:before,
+span.bubble:after {
+  content: " ";
+  position: absolute;
+  width: 0;
+  height: 0;
+}
+
+span.speech:before {
+  left: 30px;
+  bottom: -50px;
+  border: 25px solid;
+  border-color: #333 transparent transparent #333;
+}
+
+span.speech:after {
+  left: 38px;
+  bottom: -30px;
+  border: 15px solid;
+  border-color: #fff transparent transparent #fff;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Hjem</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="index.css">
+
+
+
+</head>
+<body>
+  <br><br><br><br>
+
+<span id="bildeRamme">
+<img id="karakter" src="../../karakterbilder/usikker.png" alt="Karakter" align="left">
+</span>
+<span class="bubble thought" id="snakkeBoble">
+  Ånei..jeg har ikke øvd!
+</span>
+
+<div id="center">
+      <h3>Du fant heldigvis klasserommet, men når foreleseren kommer viser det seg at dere skal ha pop-up quiz.<br>
+        Du står nå overfor to valgmuligheter:</h3>
+      </div>
+
+
+<span class="buttonSpan">
+   <a onclick="storyVidere()" id="myButton1">Ta Prøven</a>
+</span>
+<span class="buttonSpan">
+   <a onclick="storyTaper()" id="myButton2">Snik deg ut!</a>
+</span>
+
+<script type="text/javascript">
+function storyVidere() {
+location.replace("../../spill/spillQuiz/Quiz.html");
+}
+function storyTaper() {
+location.replace("../../story/storyTaper/index.html");
+}
+</script>
+</body>
+</html>

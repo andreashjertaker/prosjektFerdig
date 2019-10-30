@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Hjem</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="index.css">
+
+
+</head>
+<body>
+  <br><br><br><br>
+
+<span id="bildeRamme">
+<img id="karakter" src="../../karakterbilder/glad.png" alt="Karakter" align="left">
+</span>
+<span class="bubble thought" id="snakkeBoble">
+  Elsker Bodegaen!!
+</span>
+
+<div id="center">
+    <h3>Endelig ble du gjenforent med vennene dine! Du kan nå velge mellom å bli på Samfundet
+        eller å dra hjem og forberede deg til neste dag!</h3>
+</div>
+
+
+
+<span class="buttonSpan">
+   <a onclick="storyVidere()" id="myButton1">Kom deg hjem</a>
+</span>
+<span class="buttonSpan">
+   <a onclick="storyTaper()" id="myButton2">Bli på Samfundet</a>
+</span>
+
+<script type="text/javascript">
+function storyVidere() {
+location.replace("../../spill/spillFraSamf/index.html");
+}
+function storyTaper() {
+location.replace("../../story/storyTaper/index.html");
+}
+</script>
+</body>
+</html>

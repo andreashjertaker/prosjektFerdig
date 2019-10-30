@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Hjem</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="index.css">
+
+
+</head>
+<body>
+  <br><br><br><br>
+
+<span id="bildeRamme">
+<img id="karakter" src="../../karakterbilder/glad.png" alt="Karakter" align="left">
+</span>
+<span class="bubble thought" id="snakkeBoble">
+  Jeg har det fortreffelig!
+</span>
+
+<div id="center">
+    <h3>Det er god stemning hos fadderen og dere bestemmer dere for å dra på Samfundet.<br>
+                Du står derfor ovenfor to valgmuligheter:</h3>
+</div>
+
+
+
+<span class="buttonSpan">
+   <a onclick="storyVidere()" id="myButton1">Bli med på Samfundet!</a>
+</span>
+<span class="buttonSpan">
+   <a onclick="storyTaper()" id="myButton2">Dra hjem!</a>
+</span>
+
+<script type="text/javascript">
+function storyVidere() {
+location.replace("../../spill/spillMazeSamf/index.html");
+}
+function storyTaper() {
+location.replace("../../story/storyTaper/index.html");
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Hjem</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="index.css">
+
+
+</head>
+<body>
+  <br><br><br><br>
+
+<span id="bildeRamme">
+<img id="karakter" src="../../karakterbilder/trøtt.png" alt="Karakter" align="left">
+</span>
+<span class="bubble thought" id="snakkeBoble">
+  Nå er jeg veldig sliten ..!
+</span>
+
+<div id="center">
+    <h3>Bra jobba! Du gjennomførte hele dagen! Spillet er over,
+        men du kan velge å starte ny dag eller avslutte spillet:</h3>
+</div>
+
+
+<span class="buttonSpan">
+   <a onclick="storyVidere()" id="myButton1">Sov og start ny dag</a>
+</span>
+<span class="buttonSpan">
+   <a onclick="storyTaper()" id="myButton2">Avslutt spillet</a>
+</span>
+
+<script type="text/javascript">
+function storyVidere() {
+location.replace("../../story/story1/index.html");
+}
+function storyTaper() {
+location.replace("../../forside/index.html");
+}
+</script>
+</body>
+</html>

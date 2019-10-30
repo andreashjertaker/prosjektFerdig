@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Hjem</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="index.css">
+
+
+</head>
+<body>
+  <br><br><br><br>
+
+<span id="bildeRamme">
+<img id="karakter" src="../../karakterbilder/tilfreds.png" alt="Karakter" align="left">
+</span>
+<span class="bubble thought" id="snakkeBoble">
+  Endelig fremme på skolen!
+</span>
+
+
+<div id="center">
+      <h3>Du rakk akkurat skolen i tide, men nå blir problemet å finne det riktige klasserommet.<br>
+        Derfor står du igjen overfor to valgmuligheter:</h3>
+      </div>
+
+
+<span class="buttonSpan">
+   <a onclick="storyVidere()" id="myButton1">Finn klasserom</a>
+</span>
+<span class="buttonSpan">
+   <a onclick="storyTaper()" id="myButton2">Dra hjem igjen</a>
+</span>
+
+<script type="text/javascript">
+function storyVidere() {
+location.replace("../../spill/spillMazeSkole/index.html");
+}
+function storyTaper() {
+location.replace("../../story/storyTaper/index.html");
+}
+</script>
+</body>
+</html>
